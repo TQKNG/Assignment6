@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Passions+Conflict&family=Source+Code+Pro&display=swap');
+ /*
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Source Code Pro', monospace;
+ */
+:root{
+    /* color */
+    --yellowish:#FFC75F;
+    --light-black:rgb(59, 59, 59);
+    --light-white: #FAF7FF;
+    --white: #FFFFFF;
+}
+
+body{
+    background-color:var(--yellowish);
+    color:var(--light-black);
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.container-fluid{
+    background-color: var(--light-white);
+}
+
+.navbar-brand{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 30px;
+    font-weight: 10em;
+}
+
+
